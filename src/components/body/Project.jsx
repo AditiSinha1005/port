@@ -11,8 +11,8 @@ const Project = () => {
       <div className="projectCardBox">
         <span>
           <ProjectCard
-            title="HumbaBumba"
-            description="adlsjfl fjalkdsfj laksdjf lkasdfj klasdfj kl;asdjf l;kasdjf l;kasdjf kl;asdfj lkasdjf akl;sdfj l;aksd"
+            title="Movie Finder"
+            description="It is an API based movie finder made using React JS where we can search the movies and find the information about them."
             link="https://mui.com/material-ui/react-card/"
             image={ashes}
           />
