@@ -214,8 +214,9 @@ a{
   margin: 20px 0px;
 }
 .skillname{
-  font-size: 30px;
-  font-weight: 600;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 100;
 }
 .skillicon
 {
@@ -240,7 +241,7 @@ a{
 }
 .expohoto
 {
-  height:100px;
+  height:60px;
   padding-left: 10px;
 }
 @media only screen and (max-width:720px)
@@ -295,6 +296,11 @@ a{
   align-items: center;
 }
 
-
-
+/* project section  */
+.projectCardBox{
+  display: flex;
+  margin: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
