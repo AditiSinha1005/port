@@ -11,3 +11,290 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.home{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+  width:70%;
+}
+html{
+  scroll-behavior: smooth;
+}
+@media only screen and (max-width:1024px)
+{
+  .home{
+    width:90%
+  }
+}
+@media only screen and (max-width:512px)
+{
+  .home{
+    width:100%
+  }
+}
+.header{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  position:relative;
+  align-items: center;
+}
+.menu{
+  background-color: white;
+  display: flex;
+  flex:1;
+  justify-content: flex-end;
+}
+.menu-icon{
+  font-size: 24px;
+}
+.logo{
+ 
+  display: flex;
+  font-size: 40px;
+  /* color: rgb(39, 169, 111); */
+  color: rgb(39, 169, 111);
+  font-weight: bold;
+  
+}
+@media only screen and (max-width:720px)
+{
+  .mobile{
+    display: flex;
+  }
+  .web{
+    display:none;
+  }
+  .logo{
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width:721px)
+{
+  .mobile{
+    display: none;
+  }
+  .web{
+    display:flex;
+  }
+  .logo{
+    font-size: 48px;
+  }
+}
+
+.weboption{
+  font-size: 20px;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.weboption{
+  font-size: 20px;
+  padding: 10px;
+}
+.ham{
+  font-size: 30px;
+}
+.hom{
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile{
+  position:relative;
+}
+.body{
+  padding:14px;
+  padding-bottom: 38px;
+}
+.about{
+  padding-bottom: 38px;
+}
+.about-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.picture{
+  height:420px;
+  padding-right: 100px;
+}
+.about-info{
+  padding-top: 0px;
+  font-size: 18px;
+  padding-left: 20px;
+  color:black;
+}
+.aditi{
+  color: rgb(39, 169, 111);
+  font-weight: bold;
+  font-size: 23px;
+}
+@media only screen and (max-width:720px)
+{
+  .about-top{
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .picture
+  {
+    height: 250px;
+    padding-left: 100px;
+  }
+}
+.boss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialcontact{
+  padding:20px;
+  cursor: pointer;
+}
+.socialicon{
+  height:50px;
+}
+@media only screen and (max-width:720px)
+{
+  .socialicon{
+    height:32px;
+  }
+}
+.separator{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  height:6px;
+  width:40%;
+  border-radius: 4px;
+}
+/* .cmain{
+  display: flex;
+  flex-direction:row;
+} */
+.card{
+  padding:8px 14px;
+  margin:10px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: max-content;
+  border-radius: 7px;
+  /* background-color: #9a9ae1; */
+}
+.icon{
+  font-size: 60px;
+}
+.iconname{
+  font-size: 20px;
+}
+@media only screen and (max-width:720px)
+{
+  .icon{
+    font-size: 45px;
+  }
+  .iconname{
+    font-size: 15px;
+  }
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+}
+.skillsection{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.skillname{
+  font-size: 30px;
+  font-weight: 600;
+}
+.skillicon
+{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  max-width:75%;
+  padding: 10px;
+}
+@media only screen and (max-width:720px){
+  .skillicon
+{
+  /* display: flex; */
+  /* flex-direction: column; */
+  max-width:100%;
+  justify-content: center;
+}
+.skillsection{
+  /* display: flex; */
+  flex-direction: column;
+}
+}
+.expohoto
+{
+  height:100px;
+  padding-left: 10px;
+}
+@media only screen and (max-width:720px)
+{
+  .expohoto
+{
+  height:60px;
+  padding-left: 5px;
+}
+}
+.experiencecard
+{
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  width:45%;
+  padding: 15px;
+}
+.expdesc{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.expdate{
+ color: #aa8fd8;
+}
+.expwork{
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+}
+.experience{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* padding-top: 10px; */
+}
+.title{
+  text-align: left;
+  padding-top: 10px;
+}
+.exp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
