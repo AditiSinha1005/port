@@ -13,7 +13,7 @@ const Project = () => {
           <ProjectCard
             title="Movie Finder"
             description="adlsjfl fjalkdsfj laksdjf lkasdfj klasdfj kl;asdjf l;kasdjf l;kasdjf kl;asdfj lkasdjf akl;sdfj l;aksd"
-            link="https://mui.com/material-ui/react-card/"
+            link=""
             image={ashes}
           />
         </span>
