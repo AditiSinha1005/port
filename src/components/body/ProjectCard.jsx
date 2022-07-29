@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 
 export default function ProjectCard({ title, description, link, image }) {
   return (
-    <a href={link} target="_blank">
+    <a href={link}  target="_blank">
       <Card sx={{ maxWidth: 345 }} style={{ marginTop: "2rem" }}>
         <CardActionArea>
           {/* <CardMedia

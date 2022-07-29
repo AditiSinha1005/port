@@ -14,7 +14,7 @@ const Project = () => {
           <ProjectCard
             title="Hulu"
             description="It's an app that lets you find the movies of your choice made in react js"
-            link=""
+            link="https://port-umber-tau.vercel.app/"
             image={hulu}
           />
         </span>
