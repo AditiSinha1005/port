@@ -3,6 +3,8 @@ import ProjectCard from './ProjectCard'
 import ashes from "../../assets/Studying-bro.png";
 import hulu from "../../assets/hulu.png";
 import instantmoviefinder from  "../../assets/instantmoviefinder.png"
+import googlekeep from "../../assets/newgooglekeep.png"
+import newgooglekeep from "../../assets/newgooglekeep.png"
 import Separator from './Separator';
 
 function Project() {
@@ -28,7 +30,7 @@ function Project() {
           <ProjectCard
             title="Google keep clone"
             description="It's basically a clone of Googlekeep that lets you add tasks to your list to keep track of the day"
-            image={ashes} />
+            image={newgooglekeep}/>
         </span>
         {/* <span>
           <ProjectCard
