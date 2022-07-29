@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import ashes from "../../assets/Studying-bro.png";
+import hulu from "../../assets/hulu.png";
 import Separator from './Separator';
 
 const Project = () => {
@@ -11,10 +12,10 @@ const Project = () => {
       <div className="projectCardBox">
         <span>
           <ProjectCard
-            title="Movie Finder"
+            title="Hulu"
             description="It's an app that lets you find the movies of your choice made in react js"
             link=""
-            image={ashes}
+            image={hulu}
           />
         </span>
         <span>
