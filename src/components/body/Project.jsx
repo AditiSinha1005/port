@@ -12,7 +12,7 @@ const Project = () => {
         <span>
           <ProjectCard
             title="Movie Finder"
-            description="adlsjfl fjalkdsfj laksdjf lkasdfj klasdfj kl;asdjf l;kasdjf l;kasdjf kl;asdfj lkasdjf akl;sdfj l;aksd"
+            description="It's an app that lets you find the movies of your choice made in react js"
             link=""
             image={ashes}
           />
