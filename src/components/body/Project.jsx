@@ -17,19 +17,21 @@ function Project() {
           <ProjectCard
             title="Hulu"
             description="It's an app similar to netflix that shows you the best shows,movies, webseries etc "
-            link="https://port-umber-tau.vercel.app/"
+            link="https://googlekeepclone.vercel.app/"
             image={hulu} />
         </span>
         <span>
           <ProjectCard
             title="Instant movie finder"
             description="It's instantly helps you search your favourite movies and info about them"
+            link="https://googlekeepclone.vercel.app/"
             image={instantmoviefinder} />
         </span>
         <span>
           <ProjectCard
             title="Google keep clone"
             description="It's basically a clone of Googlekeep that lets you add tasks to your list to keep track of the day"
+            link="https://googlekeepclone.vercel.app/"
             image={newgooglekeep}/>
         </span>
         {/* <span>
