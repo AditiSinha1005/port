@@ -7,9 +7,9 @@ const Contact = () => {
       <Separator/>
       <div style={{ marginTop: "1rem", fontSize: "2rem" }}>Contact</div>
       <ContactLogos/>
-      <div className='download'>
-     <a download href={require('../../assets/aditi.pdf').default}>download here </a>
-      </div>
+      {/* <div className='download'>
+     <a download  href={require('../../assets/aditi.pdf').default}>download here </a>
+      </div> */}
     </>
   );
 }

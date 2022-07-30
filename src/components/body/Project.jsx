@@ -24,7 +24,7 @@ function Project() {
           <ProjectCard
             title="Instant movie finder"
             description="It's instantly helps you search your favourite movies and info about them"
-            link="https://googlekeepclone.vercel.app/"
+            link="https://blog-cyan-nine.vercel.app/"
             image={instantmoviefinder} />
         </span>
         <span>
