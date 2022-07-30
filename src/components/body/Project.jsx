@@ -17,7 +17,7 @@ function Project() {
           <ProjectCard
             title="Hulu"
             description="It's an app similar to netflix that shows you the best shows,movies, webseries etc "
-            link="https://googlekeepclone.vercel.app/"
+            link="https://zinder.vercel.app/"
             image={hulu} />
         </span>
         <span>
