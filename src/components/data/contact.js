@@ -6,7 +6,7 @@ export const a=[
 },
 {
     platform:"linkedin",
-    link:"https://www.linkedin.com/",
+    link:"https://www.linkedin.com/in/aditi-sinha-a4a7a91ba/",
     icon:require('../../assets/linkedin.png'),
 },
 
