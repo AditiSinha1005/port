@@ -5,6 +5,7 @@ import hulu from "../../assets/hulu.png";
 import instantmoviefinder from  "../../assets/instantmoviefinder.png"
 import googlekeep from "../../assets/newgooglekeep.png"
 import chat from "../../assets/chatt.png"
+import auth from "../../assets/auth.png"
 import newgooglekeep from "../../assets/newgooglekeep.png"
 import Separator from './Separator';
 
@@ -41,6 +42,14 @@ function Project() {
             description="It is a real  chat apllication made using socket.io html javascript and nodejs "
             link="https://github.com/AditiSinha1005/chatbot"
             image={chat}/>
+        </span>
+        <span>
+        <ProjectCard
+            title="Login and Signup"
+            description="Made the signup and login  frontend and backend  with user authentication using mongodb,
+             jwt token,nodejs,react js,chakra ui for a group project "
+            link="https://github.com/himanshu070/SmokeFreeMe"
+            image={auth}/>
         </span>
       </div>
     </>
