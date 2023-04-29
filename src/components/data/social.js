@@ -6,7 +6,7 @@ export const a=[
 },
 {
     platform:"leetcode",
-    link:"https://leetcode.com/aditisinhaaaaa/",
+    link:"https://leetcode.com/sinhaaditii/",
     icon:require('../../assets/leetcode.png'),
 },
 {
