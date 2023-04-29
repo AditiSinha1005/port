@@ -4,6 +4,7 @@ import ashes from "../../assets/Studying-bro.png";
 import hulu from "../../assets/hulu.png";
 import instantmoviefinder from  "../../assets/instantmoviefinder.png"
 import googlekeep from "../../assets/newgooglekeep.png"
+import chat from "../../assets/chatt.png"
 import newgooglekeep from "../../assets/newgooglekeep.png"
 import Separator from './Separator';
 
@@ -34,13 +35,13 @@ function Project() {
             link="https://googlekeepclone.vercel.app/"
             image={newgooglekeep}/>
         </span>
-        {/* <span>
+         <span>
           <ProjectCard
-            title="HumbaBumba"
-            description="adlsjfl fjalkdsfj laksdjf lkasdfj klasdfj kl;asdjf l;kasdjf l;kasdjf kl;asdfj lkasdjf akl;sdfj l;aksd"
-            link="instagram.com"
-            image={ashes} />
-        </span> */}
+            title="Mern Chat App "
+            description="It is a real  chat apllication made using socket.io html javascript and nodejs "
+            link="https://github.com/AditiSinha1005/chatbot"
+            image={chat}/>
+        </span>
       </div>
     </>
   );
