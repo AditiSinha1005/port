@@ -18,6 +18,20 @@ icon:<i class="devicon-html5-plain-wordmark"></i>,
     name:"React Js",
     icon:<i class="devicon-react-original-wordmark colored"></i>,
  },
+ {
+   name:"Node Js",
+   icon:<i class="devicon-nodejs-plain"></i>,
+},
+{
+   name:"Express Js",
+   icon:<i class="devicon-express-original"></i>,
+},
+{
+   name:"Mongodb",
+   icon:<i class="devicon-mongodb-plain"></i>
+},
+
+
 ],
 },
 {
@@ -27,6 +41,11 @@ icon:<i class="devicon-html5-plain-wordmark"></i>,
         name:"C++",
         icon:<i class="devicon-cplusplus-line colored"></i>,
        },
+       {
+         name:"C",
+         icon:<i class="devicon-c-plain colored"></i>,
+        },
+
     ],
 },
 ];
