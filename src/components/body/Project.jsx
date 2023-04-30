@@ -14,7 +14,7 @@ function Project() {
     <>
       <Separator />
       <div style={{ marginTop: "1rem", fontSize: "2rem" }}>Project</div>
-      <div className="projectCardBox">
+      <div className="projectCardBox" id="proj">
         <span>
           <ProjectCard
             title="Hulu"

@@ -6,7 +6,7 @@ const Experience = () => {
   const data=work;
   return (
     <>
-      <div className="experience">
+      <div className="experience" id="experience">
         <Separator />
         <div style={{ marginTop: "0.8rem", fontSize: "2rem", marginBottom: "2rem"}}>Experience</div>
         <div className="exp">

@@ -3,7 +3,7 @@ import {a} from "../data/social"
 const Social = () => {
     const data=a;
   return (
-    <div className='boss'>
+    <div className='boss' id="social">
       {data.map((item)=>{
           return (
        <a href={item.link}  target="aditi">

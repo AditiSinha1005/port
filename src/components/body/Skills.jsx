@@ -8,7 +8,7 @@ const Skills = () => {
       <Separator />
       <div style={{ marginTop: "1rem", fontSize: "2rem" }}>Skills</div>
 
-      <div className="skilllist">
+      <div className="skilllist" id="skill">
         {data.map((item) => {
           return (
             <div className="skillsection">
